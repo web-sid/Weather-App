@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/images/icons8-summer-48.png" />
+  </head>
+  <body>
+    <div class="card">
+      <!-- // Search Button -->
+      <div class="search-city">
+        <input class="enter-city" type="text" placeholder="Enter city name" />
+        <button class="search-btn">
+          <img src="images/images/search.png" alt="" />
+        </button>
+      </div>
+
+      <div class="error">
+        <p>Invalid City name</p>
+      </div>
+
+      <!-- // Tempeature Details -->
+      <div class="weather">
+        <img src="images/images/clear.png" class="weather-Info" />
+        <h1 class="temp">20°C</h1>
+        <h2 class="city">Banglore</h2>
+      </div>
+
+      <!-- //Humidity and Wind details -->
+      <div class="details">
+        <div class="col">
+          <img src="images/images/humidity.png" alt="" />
+          <div>
+            <p class="humidity">--</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/images/wind.png" alt="" />
+          <div>
+            <p class="wind">--</p>
+            <p>Wind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
